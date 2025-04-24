@@ -16,8 +16,8 @@ public class HamiltonianPath {
         String temp;
         for(Node child: node.next){
             if(output.contains(child.name)){
-                if(depth == graph.size()-1){
-                    return output;
+                if(depth == graph.size()-1&&output.startsWith(child.name)){
+                    return output+child.name;
                 }
             }
             else{
