@@ -1,4 +1,4 @@
-public class BacktrackingPossibleMazePaths {
+public class PossibleMazePaths {
 
     static void printMaze(int[][] maze){
         for(int i=0;i<maze.length;i++){
