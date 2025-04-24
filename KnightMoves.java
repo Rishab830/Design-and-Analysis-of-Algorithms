@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class KnightMoves {
 
     static int[][] recKnightMoves(int[][] board, int i, int j, int depth, int[][] path){
