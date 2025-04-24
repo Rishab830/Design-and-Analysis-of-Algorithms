@@ -359,3 +359,9 @@ author: "Rishab Ramesh Nair"
 
         }
 }
+
+# 9) Why is Hamiltonian path NP-complete
+
+Hamiltonian cannot be solved in polynomial time for any general graph, hence it is NP
+Other NP problems such as Travelling Salesman Problem can be reduced down to Hamiltonian path problem, hence it is also NP-hard
+Because it is NP and NP-hard, hence it is NP-complete.
