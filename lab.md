@@ -360,6 +360,8 @@ author: "Rishab Ramesh Nair"
         }
 }
 
+---
+
 # 7) Graph Color Theory
 
     public class ColorGraphTheory {
