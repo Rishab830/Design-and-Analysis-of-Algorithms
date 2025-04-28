@@ -387,7 +387,7 @@ Path table:
             System.out.println(findHamiltonianPath(graph));
 
         }
-}
+    }
 
 Output: ABEDCA
 
