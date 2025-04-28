@@ -1,9 +1,10 @@
-title: "DAA Lab"
-author: "Rishab Ramesh Nair"
+# title: "DAA Lab"
+
+## author: "Rishab Ramesh Nair"
 
 ---
 
-# 1) Pascal Triangle
+## 1) Pascal Triangle
 
     import java.util.*;
     class PascalTriangle {
@@ -36,15 +37,15 @@ author: "Rishab Ramesh Nair"
         }
     }
 
-1 
-1 1 
-1 2 1 
-1 3 3 1 
+1  
+1 1  
+1 2 1  
+1 3 3 1  
 1 4 6 4 1
 
 ---
 
-# 2) Longest Increasing Subsequence
+## 2) Longest Increasing Subsequence
 
     class LongestIncreasingSubsequenceDP{
 
@@ -112,7 +113,7 @@ Output: 15 13 9 6 4 0
 
 ---
 
-# 3) Perfect Squares
+## 3) Perfect Squares
 
     public class SumOfSquares {
 
@@ -144,14 +145,15 @@ Output: 15 13 9 6 4 0
         }
     }
 
-|0|0|1|2|3|4|5|6|7|8|9|10|11|12|13|  
-|1|0|1|2|3|4|5|6|7|8|9|10|11|12|13|  
-|2|0|1|2|3|1|2|3|4|2|3|4 |5 |3 |4 |  
-|4|0|1|2|3|1|2|3|4|2|1|2 |3 |4 |2 |   
+0|0|1|2|3|4|5|6|7|8|9|10|11|12|13  
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---  
+1|0|1|2|3|4|5|6|7|8|9|10|11|12|13  
+2|0|1|2|3|1|2|3|4|2|3|4|5|3|4  
+4|0|1|2|3|1|2|3|4|2|1|2|3|4|2  
 
 ---
 
-# 4) All Possible Paths for Robot
+## 4) All Possible Paths for Robot
 
     public class PossibleMazePaths {
 
@@ -207,7 +209,7 @@ Output: 2
 
 ---
 
-# 5) Knight
+## 5) Knight
 
     public class KnightMoves {
 
@@ -305,15 +307,17 @@ Output: 2
         }
     }
 
-|0 |5 |14|9 |20|  
-|13|8 |19|4 |15|  
-|18|1 |6 |21|10|  
-|7 |12|23|16|3 |  
-|24|17|2 |11|22|  
+0 |5 |14|9 |20  
+-|-|-|-|-  
+13|8 |19|4 |15  
+18|1 |6 |21|10  
+7 |12|23|16|3  
+24|17|2 |11|22  
 
 ---
 
-# 6) Hamiltonian Path
+## 6) Hamiltonian Path  
+
     import java.util.*;
 
     class Node{
@@ -387,7 +391,7 @@ Output: ABEDCA
 
 ---
 
-# 7) Graph Color Theory
+## 7) Graph Color Theory
 
     public class ColorGraphTheory {
         
@@ -459,17 +463,21 @@ Output: ABEDCA
         }
     }
 
-Graph: 
+Graph:  
 0 1 1 1  
 1 0 1 0  
 1 1 0 1  
 1 0 1 0  
 
 Color order:  
-|0 |1 |2 |3 |  
-|C1|C2|C3|C2|  
 
-# 9) Why is Hamiltonian path NP-complete
+0|1|2|3  
+-|-|-|-  
+C1|C2|C3|C2  
+
+---
+
+## 9) Why is Hamiltonian path NP-complete
 
 - Hamiltonian cannot be solved in polynomial time for any general graph, hence it is NP  
 - Other NP problems such as Travelling Salesman Problem can be reduced down to Hamiltonian path problem, hence it is also NP-hard  
