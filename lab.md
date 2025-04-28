@@ -36,6 +36,12 @@ author: "Rishab Ramesh Nair"
         }
     }
 
+1 
+1 1 
+1 2 1 
+1 3 3 1 
+1 4 6 4 1
+
 ---
 
 # 2) Longest Increasing Subsequence
@@ -100,6 +106,10 @@ author: "Rishab Ramesh Nair"
         }
     }
 
+DP Vector: 1 2 2 3 2 3 3 4 2 4 3 5 3 5 4 6  
+Traceback: -1 0 0 1 0 1 2 3 0 6 2 9 4 9 6 11  
+Output: 15 13 9 6 4 0  
+
 ---
 
 # 3) Perfect Squares
@@ -133,6 +143,11 @@ author: "Rishab Ramesh Nair"
             coinChange(13);
         }
     }
+
+|0|0|1|2|3|4|5|6|7|8|9|10|11|12|13|  
+|1|0|1|2|3|4|5|6|7|8|9|10|11|12|13|  
+|2|0|1|2|3|1|2|3|4|2|3|4 |5 |3 |4 |  
+|4|0|1|2|3|1|2|3|4|2|1|2 |3 |4 |2 |   
 
 ---
 
@@ -187,6 +202,8 @@ author: "Rishab Ramesh Nair"
             System.out.println(n);
         }
     }
+
+Output: 2
 
 ---
 
@@ -288,6 +305,12 @@ author: "Rishab Ramesh Nair"
         }
     }
 
+|0 |5 |14|9 |20|  
+|13|8 |19|4 |15|  
+|18|1 |6 |21|10|  
+|7 |12|23|16|3 |  
+|24|17|2 |11|22|  
+
 ---
 
 # 6) Hamiltonian Path
@@ -359,6 +382,8 @@ author: "Rishab Ramesh Nair"
 
         }
 }
+
+Output: ABEDCA
 
 ---
 
@@ -433,6 +458,16 @@ author: "Rishab Ramesh Nair"
             }
         }
     }
+
+Graph: 
+0 1 1 1  
+1 0 1 0  
+1 1 0 1  
+1 0 1 0  
+
+Color order:  
+|0 |1 |2 |3 |  
+|C1|C2|C3|C2|  
 
 # 9) Why is Hamiltonian path NP-complete
 

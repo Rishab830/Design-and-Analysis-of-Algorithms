@@ -36,10 +36,12 @@ class LongestIncreasingSubsequenceDP{
         Object[] output = lisDP(arr);
         int[] dp = (int[])output[0];
         int[] traceback = (int[])output[1];
+        System.out.print("DP Vector: ");
         for(int i: dp){
             System.out.print(i+" ");
         }
         System.out.println();
+        System.out.print("Traceback: ");
         for(int i: traceback){
             System.out.print(i+" ");
         }
@@ -53,6 +55,7 @@ class LongestIncreasingSubsequenceDP{
             }
         }
         int i = maxi;
+        System.out.print("Output: ");
         while(i!=-1){
             System.out.print(arr[i] + " ");
             i = traceback[i];
